@@ -1,5 +1,6 @@
 import logo from './logo.svg'
 import './App.css'
+import { Counter } from './Counter'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </header>
       <div className="content">
         <h1>Redux-counter</h1>
+        <Counter />
       </div>
     </div>
   )
